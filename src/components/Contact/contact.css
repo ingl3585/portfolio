@@ -27,6 +27,8 @@
 
 .c-info {
     height: 50vh;
+    width: 45vw;
+    margin-top: 5px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -36,9 +38,21 @@
 .c-info-item {
     display: flex;
     align-items: center;
-    margin: 50px 0;
+    margin: 25px 0;
     font-weight: 300;
     width: 70%;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #555D52;
+}
+
+a:hover {
+    color: #AB9C72;
 }
 
 .c-icon {
@@ -80,14 +94,22 @@ textarea {
     padding: 5px 10px 0 10px;
 }
 
+input:focus, textarea:focus {
+    outline: none;
+}
+
 button {
     border: none;
-    width: 25%;
+    width: 40%;
     padding: 15px;
     background-color: #555D52;
     color: white;
     cursor: pointer;
     font-weight: 400;
+}
+
+button:hover {
+    background-color: #AB9C72;
 }
 
 /* 768px, 1200px */

@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
-import './contact.css';
+import DownloadResume from '../../img/AnthonyIngleResumeSE.pdf';
+import Resume from '../../img/resume.png';
+import Github from '../../img/github.png';
+import Linkedin from '../../img/linkedin.png';
 import Email from '../../img/email.png';
+import './contact.css';
 
 const Contact = () => {
 	const [data, setData] = useState({
@@ -50,8 +54,34 @@ const Contact = () => {
 					<h1 className='c-title'>Let's discuss your project</h1>
 					<div className='c-info'>
 						<div className='c-info-item'>
-							<img className='c-icon' src={Email} alt='email-icon' />
-							ingleanthonyco@gmail.com
+							<a href={DownloadResume} download>
+								<img className='c-icon' src={Resume} alt='resume-icon' />
+								Resume
+							</a>
+						</div>
+						<div className='c-info-item'>
+							<a
+								href='https://www.linkedin.com/in/anthonyingle/'
+								target='_blank'
+								rel='noreferrer'>
+								<img className='c-icon' src={Linkedin} alt='linkedin-icon' />
+								LinkedIn
+							</a>
+						</div>
+						<div className='c-info-item'>
+							<a
+								href='https://github.com/ingl3585'
+								target='_blank'
+								rel='noreferrer'>
+								<img className='c-icon' src={Github} alt='github-icon' />
+								GitHub
+							</a>
+						</div>
+						<div className='c-info-item'>
+							<a href='mailto: ingleanthonyco@gmail.com'>
+								<img className='c-icon' src={Email} alt='email-icon' />
+								Email
+							</a>
 						</div>
 					</div>
 				</div>

@@ -52,7 +52,7 @@
         flex-direction: column;
     }
     .p-item {
-        width: 75%;
+        width: 55%;
         margin: 0 0 20px 0;
     }
 }
@@ -74,7 +74,7 @@
         flex-direction: column;
     }
     .p-item {
-        width: 100%;
+        width: 90%;
         margin: 0 0 20px 0;
     }
 }
