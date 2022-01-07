@@ -89,10 +89,10 @@
 }
 
 .i-img {
-    max-width: 90%;
-    height: 42%;
+    max-width: 85%;
+    height: 40%;
     position: absolute;
-    top: 25%;
+    top: 27%;
     right: 25%;
 }
 
@@ -114,8 +114,8 @@
     }
     .i-img {
         height: 30vh;
-        width: 48vw;
-        right: 26%;
+        width: 42.5vw;
+        right: 28.5%;
     }
 }
 
@@ -137,8 +137,8 @@
     }
     .i-img {
         height: 25vh;
-        width: 60vw;
-        left: 20%;
+        width: 50vw;
+        left: 25%;
         bottom: 5%;
     }
 }
