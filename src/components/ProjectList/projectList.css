@@ -35,6 +35,10 @@
     border-radius: 25px;
 }
 
+.p-img:hover {
+    opacity: 0.8 !important;
+}
+
 @media screen and (max-width: 768px) {
     .pl {
         padding: 10px;
