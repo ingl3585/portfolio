@@ -34,3 +34,47 @@
     width: 50%;
     border-radius: 25px;
 }
+
+@media screen and (max-width: 768px) {
+    .pl {
+        padding: 10px;
+    }
+
+    .pl-texts {
+        width: 100%;
+    }
+
+    .pl-desc {
+        display: none;
+    }
+
+    .pl-list {
+        flex-direction: column;
+    }
+    .p-item {
+        width: 75%;
+        margin: 0 0 20px 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .pl {
+        padding: 10px;
+    }
+
+    .pl-texts {
+        width: 100%;
+    }
+
+    .pl-desc {
+        display: none;
+    }
+
+    .pl-list {
+        flex-direction: column;
+    }
+    .p-item {
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+}
