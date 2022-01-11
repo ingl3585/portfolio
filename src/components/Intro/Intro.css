@@ -12,7 +12,7 @@
 
 .i-left-wrapper {
     padding: 50px;
-    height: 50%;
+    height: 62.5%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -90,10 +90,18 @@
 
 .i-img {
     max-width: 85%;
-    height: 40%;
+    height: 35%;
     position: absolute;
-    top: 27%;
-    right: 25%;
+    top: 35%;
+    right: 30%;
+}
+
+@media screen and (max-width: 992px) {
+    .i-img {
+        height: 30%;
+        top: 35.5%;
+        right: 30%;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -114,8 +122,18 @@
     }
     .i-img {
         height: 30vh;
-        width: 42.5vw;
-        right: 28.5%;
+        width: 33vw;
+        right: 33%;
+        top: 25%;
+    }
+}
+
+@media screen and (max-width: 624px) {
+    .i-img {
+        height: 28vh;
+        width: 41.5vw;
+        right: 30%;
+        top: 27%;
     }
 }
 
@@ -137,8 +155,8 @@
     }
     .i-img {
         height: 25vh;
-        width: 50vw;
+        width: 47.5vw;
         left: 25%;
-        bottom: 5%;
+        top: 29%;
     }
 }
