@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.0b2e2f0a.css",
-    "main.js": "/portfolio/static/js/main.98e5ce81.js",
+    "main.js": "/portfolio/static/js/main.b017fbb7.js",
     "static/media/mountain-pic.jpg": "/portfolio/static/media/mountain-pic.8d239d082883dd8bd1bb.jpg",
     "static/media/weather-app.gif": "/portfolio/static/media/weather-app.e92e8f58f893c4e38ddc.gif",
     "static/media/AnthonyIngleResumeSE.pdf": "/portfolio/static/media/AnthonyIngleResumeSE.58c2b5030ce1d43a4540.pdf",
@@ -15,10 +15,10 @@
     "static/media/linkedin.png": "/portfolio/static/media/linkedin.3d966c7585847432ee2b.png",
     "index.html": "/portfolio/index.html",
     "main.0b2e2f0a.css.map": "/portfolio/static/css/main.0b2e2f0a.css.map",
-    "main.98e5ce81.js.map": "/portfolio/static/js/main.98e5ce81.js.map"
+    "main.b017fbb7.js.map": "/portfolio/static/js/main.b017fbb7.js.map"
   },
   "entrypoints": [
     "static/css/main.0b2e2f0a.css",
-    "static/js/main.98e5ce81.js"
+    "static/js/main.b017fbb7.js"
   ]
 }
