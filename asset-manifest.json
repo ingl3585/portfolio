@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1279b683.css",
+    "main.js": "/static/js/main.df96784d.js",
+    "static/media/mountain-pic.jpg": "/static/media/mountain-pic.8d239d082883dd8bd1bb.jpg",
+    "static/media/weather-app.gif": "/static/media/weather-app.e92e8f58f893c4e38ddc.gif",
+    "static/media/AnthonyIngleResumeSE.pdf": "/static/media/AnthonyIngleResumeSE.58c2b5030ce1d43a4540.pdf",
+    "static/media/total-weather-app.gif": "/static/media/total-weather-app.8a93e2bcb1ee2e85a84f.gif",
+    "static/media/me.png": "/static/media/me.d3783d11de4329aeab6f.png",
+    "static/media/place-holder-pic.jpeg": "/static/media/place-holder-pic.48ca89106939d686f634.jpeg",
+    "static/media/placeholder.gif": "/static/media/placeholder.d8a901b08e4bb8a95285.gif",
+    "static/media/github.png": "/static/media/github.c9b6dce93c48ab0b0b81.png",
+    "static/media/email.png": "/static/media/email.ec878524c908fdc88281.png",
+    "static/media/resume.png": "/static/media/resume.aa4f77d28a23c4b9a1dd.png",
+    "static/media/linkedin.png": "/static/media/linkedin.3d966c7585847432ee2b.png",
+    "index.html": "/index.html",
+    "main.1279b683.css.map": "/static/css/main.1279b683.css.map",
+    "main.df96784d.js.map": "/static/js/main.df96784d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1279b683.css",
+    "static/js/main.df96784d.js"
+  ]
+}
