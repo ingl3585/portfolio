@@ -15,12 +15,12 @@ const About = () => {
 				<p className='a-desc'>
 					I'm a meteorologist turned full stack developer based in Denver, CO. I
 					am an avid lover of technology and decided to launch myself officially
-					into the world of development in early July 2021. Early on, I have
-					enjoyed programming and continued to learn languages such as: HTML,
-					CSS, JavaScript, and also Python. Soon, I will expand that list
-					further as I love to learn and continue to advance my knowledge in the
-					CS space. Thank you for taking the time to look at my portfolio, and
-					if there is anything you need, please let me know down below!
+					into the world of development in July 2021. I have enjoyed programming
+					and continued to learn languages such as: HTML, CSS, JavaScript, and
+					also Python. I will continue expand that list further as I love to
+					learn and continue to advance my knowledge in the CS space. Thank you
+					for taking the time to look at my portfolio and if there is anything
+					you need, please let me know down below!
 				</p>
 			</div>
 		</div>

@@ -70,7 +70,8 @@ a:hover {
 }
 
 .c-desc {
-    font-weight: 200;
+    font-weight: 400;
+    font-size: 20px;
 }
 
 form {
