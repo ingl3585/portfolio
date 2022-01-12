@@ -20,6 +20,7 @@
 
 .pl-desc {
     margin: 20px 0;
+    font-size: 20px;
 }
 
 .pl-list {
@@ -37,6 +38,10 @@
 
 .p-img:hover {
     opacity: 0.8 !important;
+}
+
+.a-desc {
+    padding-right: 25px;
 }
 
 @media screen and (max-width: 1020px) {
@@ -62,7 +67,7 @@
         flex-direction: column;
     }
     .p-item {
-        width: 45.5%;
+        width: 33.5%;
         margin: 0 0 20px 0;
     }
 }
@@ -84,7 +89,7 @@
         flex-direction: column;
     }
     .p-item {
-        width: 70%;
+        width: 54%;
         margin: 0 0 20px 0;
     }
 }
