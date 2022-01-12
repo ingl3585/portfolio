@@ -10,15 +10,15 @@ const Intro = () => {
 					<h1 className='i-name'>Tony Ingle</h1>
 					<div className='i-title'>
 						<div className='i-title-wrapper'>
-							<div className='i-title-item'> Web Developer</div>
-							<div className='i-title-item'> UI/UX Designer</div>
+							<div className='i-title-item'> Full Stack Developer</div>
+							<div className='i-title-item'> Software Engineer</div>
 							<div className='i-title-item'> Meteorologist</div>
 							<div className='i-title-item'> Stock Trader</div>
 						</div>
 					</div>
 					<p className='i-desc'>
-						I design and develop services for customers, specializing in
-						creating stylish, modern websites, and more.
+						I love developing and designing sleek looking products and websites
+						that anyone will enjoy.
 					</p>
 				</div>
 				<svg
