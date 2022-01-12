@@ -70,6 +70,9 @@
         width: 33.5%;
         margin: 0 0 20px 0;
     }
+    .a-desc {
+        padding-right: 0;
+    }
 }
 
 @media screen and (max-width: 480px) {
