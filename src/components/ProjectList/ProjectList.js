@@ -1,7 +1,7 @@
 import './projectList.css';
 import WeatherApp from '../../img/weather-app.gif';
 import TotalWeather from '../../img/total-weather-app.gif';
-import Placeholder from '../../img/placeholder.gif';
+import CoffeeShop from '../../img/coffee-shop.gif';
 
 const ProjectList = () => {
 	return (
@@ -31,8 +31,11 @@ const ProjectList = () => {
 					</a>
 				</div>
 				<div className='p-item'>
-					<a href='#'>
-						<img className='p-img' src={Placeholder} alt='placeholder-gif' />
+					<a
+						href='https://ingl3585.github.io/coffee-shop/'
+						target='_blank'
+						rel='noreferrer'>
+						<img className='p-img' src={CoffeeShop} alt='coffee-shop-gif' />
 					</a>
 				</div>
 				<div></div>
