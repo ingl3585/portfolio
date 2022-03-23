@@ -16,14 +16,6 @@ const ProjectList = () => {
 			<div className='pl-list'>
 				<div className='p-item'>
 					<a
-						href='https://ingl3585.github.io/total-weather-frontend/'
-						target='_blank'
-						rel='noreferrer'>
-						<img className='p-img' src={TotalWeather} alt='total-weather-gif' />
-					</a>
-				</div>
-				<div className='p-item'>
-					<a
 						href='https://ingl3585.github.io/weather-app/'
 						target='_blank'
 						rel='noreferrer'>
@@ -36,6 +28,14 @@ const ProjectList = () => {
 						target='_blank'
 						rel='noreferrer'>
 						<img className='p-img' src={CoffeeShop} alt='coffee-shop-gif' />
+					</a>
+				</div>
+				<div className='p-item'>
+					<a
+						href='https://ingl3585.github.io/total-weather-frontend/'
+						target='_blank'
+						rel='noreferrer'>
+						<img className='p-img' src={TotalWeather} alt='total-weather-gif' />
 					</a>
 				</div>
 				<div></div>
