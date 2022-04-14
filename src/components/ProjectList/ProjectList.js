@@ -1,7 +1,7 @@
 import './projectList.css';
 import WeatherApp from '../../img/weather-app.gif';
 import TotalWeather from '../../img/total-weather-app.gif';
-import CoffeeShop from '../../img/coffee-shop.gif';
+import Sunnyside from '../../img/sunnyside.gif';
 
 const ProjectList = () => {
 	return (
@@ -16,18 +16,18 @@ const ProjectList = () => {
 			<div className='pl-list'>
 				<div className='p-item'>
 					<a
-						href='https://ingl3585.github.io/weather-app/'
+						href='https://ingl3585.github.io/sunnyside-landing-page/'
 						target='_blank'
 						rel='noreferrer'>
-						<img className='p-img' src={WeatherApp} alt='weather-app-gif' />
+						<img className='p-img' src={Sunnyside} alt='sunnyside-gif' />
 					</a>
 				</div>
 				<div className='p-item'>
 					<a
-						href='https://ingl3585.github.io/coffee-shop/'
+						href='https://ingl3585.github.io/weather-app/'
 						target='_blank'
 						rel='noreferrer'>
-						<img className='p-img' src={CoffeeShop} alt='coffee-shop-gif' />
+						<img className='p-img' src={WeatherApp} alt='weather-app-gif' />
 					</a>
 				</div>
 				<div className='p-item'>
