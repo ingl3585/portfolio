@@ -3,16 +3,16 @@ import './about.css';
 
 const About = () => {
 	return (
-		<div className='a'>
-			<div className='a-left'>
-				<div className='a-card bg'></div>
-				<div className='a-card'>
-					<img className='a-img' src={CampPic} alt='' />
+		<div className='about'>
+			<div className='about-left'>
+				<div className='about-card bg'></div>
+				<div className='about-card'>
+					<img className='about-img' src={CampPic} alt='' />
 				</div>
 			</div>
-			<div className='a-right'>
-				<h1 className='a-title'>About Me</h1>
-				<p className='a-desc'>
+			<div className='about-right'>
+				<h1 className='about-title'>About Me</h1>
+				<p className='about-desc'>
 					I'm a meteorologist turned full stack developer based in Denver, CO. I
 					am an avid lover of technology and decided to launch myself officially
 					into the world of development in July 2021. I have enjoyed programming

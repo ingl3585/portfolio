@@ -47,46 +47,50 @@ const Contact = () => {
 		}
 	};
 	return (
-		<div className='c'>
-			<div className='c-bg'></div>
-			<div className='c-wrapper'>
-				<div className='c-left'>
-					<h1 className='c-title'>Let's discuss your project</h1>
-					<div className='c-info'>
-						<div className='c-info-item'>
+		<div className='contact'>
+			<div className='contact-bg'></div>
+			<div className='contact-wrapper'>
+				<div className='contact-left'>
+					<h1 className='contact-title'>Let's discuss your project</h1>
+					<div className='contact-info'>
+						<div className='contact-info-item'>
 							<a href={DownloadResume} download>
-								<img className='c-icon' src={Resume} alt='resume-icon' />
+								<img className='contact-icon' src={Resume} alt='resume-icon' />
 								Resume
 							</a>
 						</div>
-						<div className='c-info-item'>
+						<div className='contact-info-item'>
 							<a
 								href='https://www.linkedin.com/in/anthonyingle/'
 								target='_blank'
 								rel='noreferrer'>
-								<img className='c-icon' src={Linkedin} alt='linkedin-icon' />
+								<img
+									className='contact-icon'
+									src={Linkedin}
+									alt='linkedin-icon'
+								/>
 								LinkedIn
 							</a>
 						</div>
-						<div className='c-info-item'>
+						<div className='contact-info-item'>
 							<a
 								href='https://github.com/ingl3585'
 								target='_blank'
 								rel='noreferrer'>
-								<img className='c-icon' src={Github} alt='github-icon' />
+								<img className='contact-icon' src={Github} alt='github-icon' />
 								GitHub
 							</a>
 						</div>
-						<div className='c-info-item'>
+						<div className='contact-info-item'>
 							<a href='mailto: ingleanthonyco@gmail.com'>
-								<img className='c-icon' src={Email} alt='email-icon' />
+								<img className='contact-icon' src={Email} alt='email-icon' />
 								Email
 							</a>
 						</div>
 					</div>
 				</div>
-				<div className='c-right'>
-					<p className='c-desc'>Contact Me</p>
+				<div className='contact-right'>
+					<p className='contact-desc'>Contact Me</p>
 					<form onSubmit={handleSubmit}>
 						<input
 							type='text'

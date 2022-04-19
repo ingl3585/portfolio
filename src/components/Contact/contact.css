@@ -1,31 +1,31 @@
-.c {
+.contact {
     height: 100vh;
     position: relative;
 }
 
-.c-bg {
+.contact-bg {
     width: 20px;
     height: 100%;
     background-color: #555D52;
     position: absolute;
 }
 
-.c-wrapper {
+.contact-wrapper {
     padding: 50px;
     display: flex;
     height: 100vh;
 }
 
-.c-left {
+.contact-left {
     flex: 1;
 }
 
-.c-title {
+.contact-title {
     font-size: 60px;
     width: 80%;
 }
 
-.c-info {
+.contact-info {
     height: 35vh;
     width: 45vw;
     margin: 10px 0 0 0;
@@ -35,7 +35,7 @@
     align-items: flex-start;
 }
 
-.c-info-item {
+.contact-info-item {
     display: flex;
     align-items: center;
     padding: 10px 0;
@@ -55,13 +55,13 @@ a:hover {
     color: #AB9C72;
 }
 
-.c-icon {
+.contact-icon {
     width: 30x;
     height: 30px;
     margin-right: 20px;
 }
 
-.c-right {
+.contact-right {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -69,7 +69,7 @@ a:hover {
     align-items: center;
 }
 
-.c-desc {
+.contact-desc {
     font-weight: 400;
     font-size: 20px;
 }
@@ -115,21 +115,21 @@ button:hover {
 
 /* 768px, 1200px */
 @media screen and (max-width: 480px) { 
-    .c-wrapper {
+    .contact-wrapper {
         flex-direction: column;
         padding: 0 50px;
     }
 
-    .c-title {
+    .contact-title {
         font-size: 30px;
     }
 
-    .c-info-item {
+    .contact-info-item {
         margin: 5px 0;
         width: 100%;
     }
 
-    .c-desc {
+    .contact-desc {
         display: none;
     }
 

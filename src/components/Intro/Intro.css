@@ -1,16 +1,16 @@
-.i {
+.intro {
     display: flex;
     height: 100vh;
 }
 
-.i-left {
+.intro-left {
     flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.i-left-wrapper {
+.intro-left-wrapper {
     padding: 50px;
     height: 62.5%;
     display: flex;
@@ -18,22 +18,22 @@
     justify-content: space-between;
 }
 
-.i-intro {
+.intro-intro {
     font-size: 30px;
     font-weight: 300;
 }
 
-.i-name {
+.intro-name {
     font-size: 60px;
     font-weight: 400;
 }
 
-.i-title {
+.intro-title {
     height: 50px;
     overflow: hidden;
 }
 
-.i-title-wrapper {
+.intro-title-wrapper {
     height: 100%;
     animation: move 10s ease-in-out infinite alternate;
 }
@@ -50,7 +50,7 @@
     }
 }
 
-.i-title-item {
+.intro-title-item {
     height: 50px;
     font-size: 30px;
     font-weight: 300;
@@ -59,24 +59,24 @@
     align-items: center;
 }
 
-.i-scroll {
+.intro-scroll {
     width: 30px;
     height: 30px;
     position: absolute;
     bottom: 20px;
 }
 
-.i-desc {
+.intro-desc {
     font-size: 25px;
     font-weight: 300;
 }
 
-.i-right {
+.intro-right {
     flex: 1;
     position: relative;
 }
 
-.i-bg {
+.intro-bg {
     clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 58% 54%);
     background-image: url(../../img/mountain-pic.jpg);
     background-position: center;
@@ -88,7 +88,7 @@
     right: 0;
 }
 
-.i-img {
+.intro-img {
     max-width: 85%;
     height: 35%;
     position: absolute;
@@ -97,19 +97,22 @@
 }
 
 @media screen and (max-width: 992px) {
-    .i-img {
+    .intro-img {
         height: 30%;
         top: 35.5%;
         right: 30%;
     }
+    .intro-desc {
+        font-size: 20px;
+    }
 }
 
 @media screen and (max-width: 768px) {
-    .i {
+    .intro {
         flex-direction: column;
     }
 
-    .i-left-wrapper {
+    .intro-left-wrapper {
         padding: 10px;
         align-items: center;
         text-align: center;
@@ -117,10 +120,14 @@
         height: 100%;
     }
 
-    .i-desc {
+    .intro-title-item {
+        justify-content: center;
+    }
+
+    .intro-desc {
         display: none;
     }
-    .i-img {
+    .intro-img {
         height: 30vh;
         width: 33vw;
         right: 33%;
@@ -129,7 +136,7 @@
 }
 
 @media screen and (max-width: 624px) {
-    .i-img {
+    .intro-img {
         height: 28vh;
         width: 41.5vw;
         right: 30%;
@@ -138,11 +145,11 @@
 }
 
 @media screen and (max-width: 480px) {
-    .i {
+    .intro {
         flex-direction: column;
     }
 
-    .i-left-wrapper {
+    .intro-left-wrapper {
         padding: 10px;
         align-items: center;
         text-align: center;
@@ -150,10 +157,10 @@
         height: 100%;
     }
 
-    .i-desc {
+    .intro-desc {
         display: none;
     }
-    .i-img {
+    .intro-img {
         height: 25vh;
         width: 47.5vw;
         left: 25%;

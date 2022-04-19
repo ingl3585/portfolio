@@ -1,10 +1,10 @@
-.a {
+.about {
     height: 100vh;
     display: flex;
     align-items: center;
 }
 
-.a-left {
+.about-left {
     flex: 1;
     display: flex;
     align-items: center;
@@ -13,21 +13,22 @@
     height: 100%;
 }
 
-.a-right {
+.about-right {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
+    padding: 0 50px;
 }
 
-.a-card.bg {
+.about-card.bg {
     position: absolute;
     top: 50px;
     left: 50px;
     background-color: #555D52;
 }
 
-.a-card {
+.about-card {
     width: 60%;
     height: 70vh;
     border-radius: 30px;
@@ -35,66 +36,70 @@
     overflow: hidden;
 }
 
-.a-img {
+.about-img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.a-award-img {
-    width: 120px;
-    height: 120px;
-    border-radius: 20px;
+.about-desc {
+    font-size: 20px;
 }
 
 @media screen and (max-width: 768px) {
-    .a {
+    .about {
         flex-direction: column;
         text-align: center;
         margin-top: 50px;
     }
 
-    .a-left {
+    .about-left {
         width: 100%;
     }
-
-    .a-card {
-        height: 30vh;
-    }
-
-    .a-img {
-        object-fit: cover;
-    }
-
-    .a-right {
-        padding: 20px;
-    }
-
-}
-
-@media screen and (max-width: 480px) {
-    .a {
-        flex-direction: column;
-        text-align: center;
-        margin-top: 50px;
-    }
-
-    .a-left {
-        width: 100%;
-    }
-
-    .a-card {
-        height: 30vh;
-    }
-    .a-card.bg {
+    .about-card.bg {
         display: none;
     }
 
-    .a-right {
+    .about-card {
+        height: 30vh;
+    }
+
+    .about-img {
+        object-fit: cover;
+    }
+
+    .about-right {
         padding: 20px;
     }
+    .about-desc {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .about {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .about-left {
+        width: 100%;
+    }
+
+    .about-card {
+        height: 30vh;
+    }
+    .about-card.bg {
+        display: none;
+    }
+
+    .about-right {
+        padding: 0 20px 20px 20px;
+    }
     
-    .a-desc {
+    .about-desc {
+        font-size: 19px;
         line-height: 1.52;
     }
 }

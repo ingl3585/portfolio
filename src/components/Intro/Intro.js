@@ -3,20 +3,20 @@ import Me from '../../img/me.png';
 
 const Intro = () => {
 	return (
-		<div className='i'>
-			<div className='i-left'>
-				<div className='i-left-wrapper'>
-					<h2 className='i-intro'>Hello, my name is</h2>
-					<h1 className='i-name'>Tony Ingle</h1>
-					<div className='i-title'>
-						<div className='i-title-wrapper'>
-							<div className='i-title-item'> Full Stack Developer</div>
-							<div className='i-title-item'> Software Engineer</div>
-							<div className='i-title-item'> Meteorologist</div>
-							<div className='i-title-item'> Stock Trader</div>
+		<div className='intro'>
+			<div className='intro-left'>
+				<div className='intro-left-wrapper'>
+					<h2 className='intro-intro'>Hello, my name is</h2>
+					<h1 className='intro-name'>Tony Ingle</h1>
+					<div className='intro-title'>
+						<div className='intro-title-wrapper'>
+							<div className='intro-title-item'> Full Stack Developer</div>
+							<div className='intro-title-item'> Software Engineer</div>
+							<div className='intro-title-item'> Meteorologist</div>
+							<div className='intro-title-item'> Equity Trader</div>
 						</div>
 					</div>
-					<p className='i-desc'>
+					<p className='intro-desc'>
 						I love developing and designing sleek looking products and websites
 						that anyone will enjoy.
 					</p>
@@ -27,7 +27,7 @@ const Intro = () => {
 					viewBox='0 0 75 75'
 					fill='none'
 					stroke='black'
-					className='i-scroll'
+					className='intro-scroll'
 					xmlns='http://www.w3.org/2000/svg'>
 					<g id='scroll'>
 						<path
@@ -77,9 +77,9 @@ const Intro = () => {
 					</g>
 				</svg>
 			</div>
-			<div className='i-right'>
-				<div className='i-bg'></div>
-				<img className='i-img' src={Me} alt='self-img' />
+			<div className='intro-right'>
+				<div className='intro-bg'></div>
+				<img className='intro-img' src={Me} alt='self-img' />
 			</div>
 		</div>
 	);
