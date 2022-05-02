@@ -28,7 +28,7 @@ const ProjectList = () => {
 				</div>
 				<div className='project-list-item'>
 					<a
-						href='https://ingl3585.github.io/weather-app/'
+						href='https://ingl3585.github.io/weather-app-v2/'
 						target='_blank'
 						rel='noreferrer'>
 						<img
