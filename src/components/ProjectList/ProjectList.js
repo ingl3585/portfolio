@@ -1,7 +1,8 @@
 import './projectList.css';
+import Easybank from '../../img/easybank.gif';
+import Sunnyside from '../../img/sunnyside.gif';
 import WeatherApp from '../../img/weather-app.gif';
 import TotalWeather from '../../img/total-weather-app.gif';
-import Sunnyside from '../../img/sunnyside.gif';
 
 const ProjectList = () => {
 	return (
@@ -9,11 +10,23 @@ const ProjectList = () => {
 			<div className='project-list-texts'>
 				<h1 className='project-list-title'>Project List</h1>
 				<p className='project-list-desc'>
-					Here are a few projects I have been working on or have worked on in
-					the past. Check back soon for more projects!
+					Here are some projects I have been working on or have worked on in the
+					past. Check back soon for more projects!
 				</p>
 			</div>
 			<div className='project-list-list'>
+				<div className='project-list-item'>
+					<a
+						href='https://ingl3585.github.io/easybank/'
+						target='_blank'
+						rel='noreferrer'>
+						<img
+							className='project-list-img'
+							src={Easybank}
+							alt='easybank-gif'
+						/>
+					</a>
+				</div>
 				<div className='project-list-item'>
 					<a
 						href='https://ingl3585.github.io/sunnyside-landing-page/'
